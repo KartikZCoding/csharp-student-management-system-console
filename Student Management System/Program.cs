@@ -9,7 +9,7 @@ namespace Student_Management_System
     {
         static void Main(string[] args)
         {
-            bool looping = false;
+            bool looping = true;
             StudentService studentService = new StudentService();
             while (looping)
             {
